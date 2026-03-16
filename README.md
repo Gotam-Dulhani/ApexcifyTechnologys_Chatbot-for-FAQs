@@ -8,8 +8,6 @@
 
 > A **TF-IDF powered FAQ Chatbot** built with Python, NLTK, Scikit-Learn, and Gradio — matches user queries to the most relevant answer using NLP preprocessing and Cosine Similarity.
 
-🌐 **[Explore the docs »](#)**
-🚀 **[View Demo](#)** · 🐛 **[Report Bug](#)** · 🌟 **[Request Feature](#)**
 
 ---
 
