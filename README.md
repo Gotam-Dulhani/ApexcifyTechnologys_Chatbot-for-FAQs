@@ -159,6 +159,18 @@ Open this link in your browser to interact with the FAQ Assistant via the Gradio
 
 ---
 
+## 🌐 Deploy on Render (Free)
+
+1. Push this repo to GitHub
+2. Go to [render.com](https://render.com) and sign up
+3. Click **New +** → **Web Service**
+4. Connect your GitHub repo
+5. Render will auto-detect the `Dockerfile`
+6. Click **Create Web Service**
+7. Your chatbot will be live at `https://<your-service>.onrender.com`
+
+---
+
 ## 🤝 Contributing
 
 Contributions are welcome!
