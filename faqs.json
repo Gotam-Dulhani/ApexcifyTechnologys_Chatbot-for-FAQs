@@ -798,5 +798,29 @@
   {
     "question": "Why use NLP in chatbots",
     "answer": "Natural Language Processing (NLP) is a field of artificial intelligence that focuses on enabling computers to understand, interpret, and generate human language in a way that is both meaningful and useful."
+  },
+  {
+    "question": "What are the types of machine learning?",
+    "answer": "The three main types of machine learning are: 1) Supervised Learning – the model learns from labeled data (e.g., classification, regression). 2) Unsupervised Learning – the model finds patterns in unlabeled data (e.g., clustering, dimensionality reduction). 3) Reinforcement Learning – an agent learns by interacting with an environment and receiving rewards or penalties."
+  },
+  {
+    "question": "What is web development?",
+    "answer": "Web development is the process of building and maintaining websites and web applications. It involves frontend development (HTML, CSS, JavaScript for the user interface), backend development (server-side logic, databases, APIs), and full-stack development which covers both. Popular frameworks include React, Django, Flask, and Node.js."
+  },
+  {
+    "question": "What is backend development?",
+    "answer": "Backend development involves building the server-side logic of web applications. It includes managing databases, authentication, APIs, and business logic. Common backend languages and frameworks include Python (Django, Flask), JavaScript (Node.js, Express), Java (Spring), and PHP (Laravel)."
+  },
+  {
+    "question": "What is frontend development?",
+    "answer": "Frontend development focuses on the user-facing side of web applications. It involves building the visual layout, styling, and interactivity using HTML (structure), CSS (styling), and JavaScript (behavior). Popular frameworks and libraries include React, Vue.js, Angular, and Tailwind CSS."
+  },
+  {
+    "question": "What is supervised learning?",
+    "answer": "Supervised learning is a type of machine learning where the model is trained on labeled data, meaning each training example has an input paired with the correct output. The model learns to map inputs to outputs and can then predict outcomes for new, unseen data. Examples include classification and regression tasks."
+  },
+  {
+    "question": "What is unsupervised learning?",
+    "answer": "Unsupervised learning is a type of machine learning where the model works with unlabeled data and tries to find hidden patterns or structures on its own. Common techniques include clustering (like K-means) and dimensionality reduction (like PCA)."
   }
 ]

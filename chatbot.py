@@ -31,8 +31,19 @@ def load_faqs(filepath='faqs.json'):
 # Preprocessing Initialization
 lemmatizer = WordNetLemmatizer()
 
+ABBREVIATIONS = {
+    "ml": "machine learning",
+    "ai": "artificial intelligence",
+    "nlp": "natural language processing",
+    "dev": "development",
+    "devs": "developers",
+}
+
 def preprocess_text(text):
-    tokens = word_tokenize(text.lower())
+    text = text.lower().strip().rstrip("?!.,").strip()
+    for abbr, full in ABBREVIATIONS.items():
+        text = text.replace(abbr, full)
+    tokens = word_tokenize(text)
     lemmatized = [lemmatizer.lemmatize(word) for word in tokens if word.replace('-', '').isalnum()]
     return " ".join(lemmatized)
 
